@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div class="giris">
+        <h1>Yapılacaklar</h1>
+
+        <div class="top">
+            <div class="top-top">
+                <p class="text"><i class="fa-solid fa-list"></i>   Yapılacak Bir İş Ekle</p>
+            </div>
+            <div class="top-down">
+                <form action="" class="formOne" id="formOne">
+                    <div class="inputOne">
+                        <input type="text" class="textIn" id="textIn" placeholder="yapılacak bir iş ekleyin...">
+                    </div>
+                    <div class="buttonOne">
+                        <button type="submit" class="buttone" id="buttonAdd"> EKLE <i class="fa-brands fa-pushed"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="down">
+            <div class="down-top">
+                <form action="" class="formTwo" >
+                    <p><i class="fa-solid fa-list-check"></i>  Yapılacaklar Listesi</p>
+                    <button class="buttonTwo" id="buttonTwo"><i class="fa-solid__fa-circle-trash"></i>Hepsini Sil</button>
+                </form>
+            <ul id="list-task" class="list-group" >
+                <button id="localButton">
+                    <i class="fa-solid fa-trash-can"></i>
+                </button>
+            </ul>
+               
+        </div>
+    </div>
+    
+    
+    <script src="https://kit.fontawesome.com/bfb7b37f5c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bfb7b37f5c.js" crossorigin="anonymous"></script>
+    <script src="do.js"></script>
+    
+
+</body>
+</html>

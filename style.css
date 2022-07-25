@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body{
+    background-image: url(https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200%2C600&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.giris h1
+{
+    color: #fff;
+    font-size: 40px;
+    margin: 2% 13%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.giris .top
+{
+    height: 150px;
+    width: 75%;
+    background: #fff;
+    margin: 3% 11%;
+    position: sticky;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px 3px #151515;
+    
+}
+
+.giris .top .top-top
+{
+    height: 70px;
+    background: #051736;
+    border: 1px solid #fff;
+    border-radius: 10px 10px 0 0; 
+}
+
+.giris .top .top-top p
+{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-variant: normal;
+    text-decoration: underline solid;
+    text-shadow: 0 15px 0 0 #000;
+    margin-left: 5%;
+    
+}
+
+.giris .top .top-down
+{
+    padding: 0.75%;
+
+}
+
+.giris .top .top-down .formOne
+{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.giris .top .top-down .formOne .inputOne
+{
+
+    margin: 2% 2%;
+    
+}
+
+.giris .top .top-down .formOne .inputOne .textIn
+{
+    height: 85%;
+    width: 600%;
+    outline-style: none;
+    border: 1px solid rgba(52, 52, 52, 0.39);
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px 0 0 5px;
+    row-gap: 15px;
+    padding: 0% 0% 0% 5%;
+    display: block;
+    
+}
+
+.giris .top .top-down .formOne .inputOne .textIn:focus
+{
+    box-shadow: 2px 0px 2px 4px rgba(22,112,224,0.4);
+    transition: 0.25s;
+}
+
+.giris .top .top-down .formOne .buttonOne 
+{
+    margin: 2% 0%;
+}
+
+.giris .top .top-down .formOne .buttonOne button
+{
+    height: 34px;
+    margin-left: -80%;
+    border-radius: 0 5px 5px 0;
+    border-style: none;
+    background: rgb(186, 0, 0);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    column-gap: 55px;
+}
+
+.giris .top .top-down .formOne .buttonOne button:hover
+{
+    box-shadow: 2px 1px 1px 4px rgba(136, 58, 6, 0.586);
+    transition: 0.2s;
+}
+
+
+.giris .down 
+{
+    height: 80px;
+    width: 75%;
+    background: #fff;
+    margin: 3% 11%;
+    position: sticky;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 5px 0px 3px #151515;
+}
+
+.giris .down .down-top .formTwo
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.giris .down .down-top .formTwo
+{
+    height: 80px;
+    background: #051736;
+    border: 1px solid #fff;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.giris .down .down-top .formTwo p
+{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 2% 5%;
+    font-variant: normal;
+    text-decoration: underline solid ;
+    text-shadow: 0 15px 0 0 #000;
+}
+
+.giris .down .down-top .formTwo button
+{
+    height: 40px;
+    margin: 1.5% 3% ;
+    background: rgb(186, 0, 0);
+    border-style: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 0% 1.5%;
+    cursor: pointer;
+}
+
+.fa-solid__fa-circle-trash ::after
+{
+    color: #fff;
+
+}
+
+.giris .down .down-top .formTwo button:hover
+{
+    box-shadow: 2px 1px 1px 4px rgba(136, 58, 6, 0.586);
+    transition: 0.2s;
+}
+
+.giris .down .list-group li
+{
+    background: #fff;
+    padding: 1% 5%;
+    font-family:sans-serif;
+    list-style-type: none;
+    margin: 2% 3% 0 0;
+    border-radius: 35px;
+    box-shadow: 0px 2px 0px 1px #151515;
+    display: flex;
+    justify-content: space-between;
+}
+
+.giris .down .list-group li #localButton
+{
+    height: max-content;
+    width: 5%;
+    background-color: rgb(186, 0, 0);
+    cursor: pointer;
+    outline-style: none;
+    border-radius: 5px;
+    
+}
+
+.resetOne
+{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;  
+}
+
+.down .list-group li .resetOne
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.down .list-group li::first-letter
+{
+   column-gap: 5px;
+}
+
